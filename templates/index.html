@@ -1,0 +1,21 @@
+<!doctype html>
+<title>Upload new File</title>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link href='/static/css/main.css' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Unica One' rel='stylesheet'>
+  <link rel="shortcut icon" href="/static/images/iconwhite.png">
+</head>
+<body>
+<div>
+  <h2>Select a file for Auris to read to you!</h2>
+  <p id='help'>Select and upload a pdf file to listen to!</p>
+  <a href="/"><p id='home'>Home</p></a>
+  <a href="/aboutpage"><p id="about">About</p></a>
+  <form method=post enctype=multipart/form-data>
+    <input id='File' class="form-control" type="file" id="formFile" name=file>
+    <button id="Next" type="submit" class="btn btn-secondary" value='Value'>Next</button> 
+    <img src="/static/images/icon.png">
+  </form>
+</div>
+</body>

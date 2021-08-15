@@ -1,0 +1,109 @@
+body {
+    background-image: url(/static/images/background.png);
+    background-size: 100%;
+    width: 1152px;
+    height: 700px;
+    font-family: Unica One;
+    font-style: normal;
+    font-weight: normal;
+}
+.div1 {
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    position:absolute;
+    left: 0px;
+    top: 150px;
+    background-color: #C4C4C4;
+    color:black;
+    text-align: left;
+}
+
+.div2 {
+    width: 825px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    right: 0px;
+    top: 675px;
+    background-color: #C4C4C4;
+}
+
+
+header{
+    
+    font-size: 64px;
+    line-height: 76px;
+    top: 100px;
+    color:white;
+    text-align: right;
+    position:absolute;
+    right: 75px;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 76px;
+    color:black;
+    position:absolute;
+    top: -10px;
+    left: 50px;
+}
+
+h2{
+    font-size: 33px;
+    line-height: 76px;
+    position:absolute;
+    top: -10px;
+    right: 75px;
+    color:black;
+    text-align: right;
+}
+
+#desc{
+    font-size: 24px;
+    line-height: 76px;
+    width: 1000px;
+    position:absolute;
+    top: 260px;
+    right: 0px;
+    color:black;
+    background-color: #C4C4C4;
+    padding:25px;
+}
+
+img{
+    height: 700px;
+    width: 700px;
+}
+#home{
+    position: absolute;
+/* width: 672px; */
+top: 600px;
+left:75px;
+font-family: Unica One;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 43px;
+text-align: center;
+color: white;
+}
+#upload{
+    position: absolute;
+/* width: 672px; */
+top: 650px;
+left:75px;
+font-family: Unica One;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 43px;
+text-align: center;
+color: white;
+}

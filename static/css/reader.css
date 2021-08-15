@@ -1,0 +1,137 @@
+body{
+    background-image: url(/static/images/background.png);
+    background-color: black;
+    background-size: 100%;
+    }
+
+#buttons{
+
+position: absolute;
+width: 951px;
+height: 350px;
+left: 534.5px;
+top: 50px;
+vertical-align: middle;
+background: #C4C4C4;
+}
+#play{
+position: absolute;
+width: 250px;
+height: 55px;
+right: 20px;
+bottom: 20px
+}
+h1{
+
+    position: absolute;
+    width: 672px;
+    height: 102px;
+    left: 126px;
+    top: 277px;
+    
+    font-family: Unica One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    
+    color: #000000;
+}
+img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    }
+
+#home{
+    position: absolute;
+/* width: 672px; */
+top: 145px;
+left:32px;
+font-family: Unica One;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 43px;
+text-align: center;
+color: #000000;
+}
+
+
+#pdfviewer{
+    position: absolute;
+    width: 951px;
+    height: 100%;
+    left: 534.5px;
+    top: 450px;
+    vertical-align: middle;
+    background: #C4C4C4;
+    }
+#iframepdf{
+    height: 100%;
+    width: 100%;
+}
+
+#help{
+    position: absolute;
+    /* width: 672px; */
+    height: 82px;
+    bottom: 40px;
+    right:10px;
+    padding:10px;
+    font-family: Unica One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+    }
+    
+h2{
+    position: absolute;
+    /* width: 672px; */
+    height: 82px;
+    top: 30px;
+    right:10px;
+    padding:10px;
+    
+    
+    font-family: Unica One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    
+    color: #000000;
+    }
+
+    #upload{
+        position: absolute;
+    /* width: 672px; */
+    top: 175px;
+    left:32px;
+    font-family: Unica One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+    }
+    
+#about{
+    position: absolute;
+/* width: 672px; */
+top: 205px;
+left:32px;
+font-family: Unica One;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 43px;
+text-align: center;
+color: #000000;
+}

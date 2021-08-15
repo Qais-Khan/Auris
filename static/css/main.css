@@ -1,0 +1,153 @@
+
+
+body{
+background-image: url(/static/images/background.png);
+background-color: black;
+background-size: 100%;
+}
+
+div{
+
+position: absolute;
+width: 951px;
+height: 306px;
+left: 534.5px;
+top: 197px;
+vertical-align: middle;
+background: #C4C4C4;
+z-index: -2;
+}
+a{
+    color: black;
+    font-family: Unica One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 43px;
+    text-align: right;
+}
+h1{
+
+    position: absolute;
+    width: 672px;
+    height: 102px;
+    left: 126px;
+    top: 277px;
+    
+    font-family: Unica One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+
+#Next{
+position: absolute;
+width: 250px;
+height: 55px;
+right: 20px;
+bottom: 20px
+}
+
+#File{
+    padding: 15px;
+    width: 400px;
+    background: #C4C4C4;
+    border: #C4C4C4;
+    position: absolute;
+    bottom: 125px;
+    vertical-align: middle;
+    right: 20px;
+}
+
+h2{
+position: absolute;
+/* width: 672px; */
+height: 82px;
+top: 10px;
+right:10px;
+padding:10px;
+
+
+font-family: Unica One;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+
+color: #000000;
+}
+
+img{
+position: absolute;
+width: 300px;
+height: 300px;
+z-index: -1;
+}
+
+nav{
+position: absolute;
+right: 0px;
+top: 0;
+height: 3em;
+line-height: 3em;
+background-color: #C4C4C4;
+width: 100%;
+}
+
+header{
+    color:#C4C4C4;
+}
+
+li{
+    text-align: right;
+    padding-right: 25px;
+}
+
+#help{
+position: absolute;
+/* width: 672px; */
+height: 82px;
+bottom: 40px;
+right:10px;
+padding:10px;
+font-family: Unica One;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 43px;
+text-align: center;
+color: #000000;
+}
+#home{
+    position: absolute;
+/* width: 672px; */
+top: 145px;
+left:32px;
+font-family: Unica One;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 43px;
+text-align: center;
+color: #000000;
+}
+
+#about{
+position: absolute;
+/* width: 672px; */
+top: 175px;
+left:32px;
+font-family: Unica One;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 43px;
+text-align: center;
+color: #000000;
+}
